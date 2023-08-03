@@ -11,7 +11,14 @@ const Home = () => {
   const [vegetables, setVegetables] = useState([]);
 
   const fetchProducts = () => {
-
+    // axios.get("http://localhost:5000/freshkart").then((res) => {
+    //   let products = res.data.data;
+    //   for (let product of products) {
+    //     product.quantity = 0;
+    //   }
+    //   categorizeProducts(products);
+    //   setState({...state, products});
+    // });
     let products = [
       {
         id: 1,

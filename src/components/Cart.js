@@ -22,7 +22,7 @@ const Cart = () => {
       setState({ products, cart: [] });
       navigate("/final");
     } else {
-      navigate("/");
+      navigate("/login");
     }
   };
 
